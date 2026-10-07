@@ -15,6 +15,36 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+```mermaid
+flowchart LR
+
+    U[Client / AI Agent]
+    
+    U --> A[MCP Host]
+    
+    A --> B[MCP Client]
+    
+    B <-->|JSON-RPC| C[MCP Server]
+    
+    C --> D[Tools]
+    C --> E[Resources]
+    C --> F[Prompts]
+
+    D --> G[Database]
+    D --> H[Filesystem]
+    D --> I[API Services]
+
+    E --> J[Documents]
+    E --> K[Knowledge Base]
+
+    F --> L[Reusable Templates]
+
+    style U fill:#4CAF50,color:#fff
+    style A fill:#2196F3,color:#fff
+    style B fill:#03A9F4,color:#fff
+    style C fill:#FF9800,color:#fff
+```
+
 ## 📖 Contents
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
