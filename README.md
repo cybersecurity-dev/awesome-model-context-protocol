@@ -1,5 +1,54 @@
 <div align="center">
-    
+
+```mermaid
+mindmap
+  root((Model Context Protocol))
+    Architecture
+      Host
+      Client
+      Server
+
+    Capabilities
+      Tools
+        APIs
+        Commands
+        Databases
+      Resources
+        Files
+        Repositories
+        Knowledge Bases
+      Prompts
+        Templates
+        Workflows
+
+    Communication
+      JSON-RPC
+      STDIO
+      HTTP
+      WebSocket
+
+    Security
+      Authentication
+      Authorization
+      Sandboxing
+      Auditing
+
+    Integrations
+      GitHub
+      GitLab
+      Slack
+      Notion
+      Databases
+      Cloud Services
+
+    Applications
+      AI Assistants
+      Coding Agents
+      Enterprise AI
+      RAG Systems
+      Workflow Automation
+```
+
 # **`Awesome`** [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) (_[MCP](https://wikipedia.org/wiki/Model_Context_Protocol)_) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
