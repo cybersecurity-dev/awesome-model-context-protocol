@@ -2,7 +2,7 @@
 
 ```mermaid
 mindmap
-  root((Model Context Protocol))
+  root((Model Context<br/>Protocol))
     Architecture
       Host
       Client
